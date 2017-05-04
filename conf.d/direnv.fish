@@ -1,3 +1,3 @@
 if type -q direnv
-  direnv hook fish
+  eval $(direnv hook fish)
 end
